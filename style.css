@@ -1,9 +1,14 @@
+
  
 .first-box-container {
   width: 200px;
   height: 100px;
   background-color: red;
   position: absolute;
+  border-width: 10px;
+  text-align: center; 
+  border-color: green;
+  border-style: solid;  
 }
 
 .second-box-container {
@@ -12,6 +17,10 @@
   background-color: yellow;
   position: absolute;
   left: 250px;
+  text-align: center;
+  border-width: 10px;  
+  border-color: red;  
+  border-style: solid;    
 }
 
 .third-box-container {
@@ -20,4 +29,12 @@
   background-color: green;
   position: relative;
   left: 500px;
+  text-align: center; 
+  border-width: 10px;
+  border-color: yellow;   
+  border-style: solid;    
 } 
+p {
+  color: blue;
+  text-transform: uppercase;
+}
